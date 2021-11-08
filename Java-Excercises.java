@@ -97,3 +97,25 @@ public class Solution {
 
     }
 }
+
+////////////////////////////////////////////////////////////////
+
+// Objective
+// In this challenge, we're going to use loops to help us do some simple math.
+
+// Task
+// Given an integer, , print its first  multiples. Each multiple  (where ) should be printed on a new line in the form: N x i = result.
+
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int N = in.nextInt();
+
+        for(int i = 1; i <= 10; i++){
+
+            System.out.printf("%d x %d = %d%n", N, i, N*i);
+        }
+    }
+}
